@@ -18,7 +18,7 @@ func JWTAuthMiddleware() func(c *gin.Context) {
 		if authHeader == "" {
 			c.JSON(200, gin.H{
 				"code": 401,
-				"msg":  "请求未携带token，无权限访问1",
+				"msg":  "請求未攜帶token，無權限存取1",
 			},
 			)
 			c.Abort()
@@ -28,7 +28,7 @@ func JWTAuthMiddleware() func(c *gin.Context) {
 		if err != nil {
 			c.JSON(200, gin.H{
 				"code": 401,
-				"msg":  "请求未携带token，无权限访问3",
+				"msg":  "請求未攜帶token，無權限存取3",
 				"data": err.Error(),
 			},
 			)
