@@ -51,7 +51,7 @@ func Login(c *gin.Context) {
 	user.UserID, err = pkg.GetUserID(user.Username)
 	if err != nil {
 		c.JSON(200, gin.H{
-			"message": "没有找到该用户",
+			"message": "沒有找到該用戶",
 		})
 		return
 	}
