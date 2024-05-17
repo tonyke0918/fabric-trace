@@ -39,7 +39,7 @@ func GetFruitInfo(c *gin.Context) {
 	res, err := pkg.ChaincodeQuery("GetFruitInfo", c.PostForm("traceability_code"))
 	if err != nil {
 		c.JSON(200, gin.H{
-			"message": "查询失败：" + err.Error(),
+			"message": "查詢失敗：" + err.Error(),
 		})
 		return
 	}
@@ -113,7 +113,7 @@ func buildArgs(c *gin.Context, farmer_traceability_code string) []string {
 		res, err := pkg.ChaincodeQuery("GetFruitInfo", c.PostForm("traceability_code"))
 		if res == "" || err != nil || len(c.PostForm("traceability_code")) != 18 {
 			c.JSON(200, gin.H{
-				"message": "请检查溯源码是否正确!!",
+				"message": "請檢查溯源碼是否正確!!",
 			})
 			return nil
 		} else {
