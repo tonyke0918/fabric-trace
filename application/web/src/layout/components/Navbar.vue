@@ -6,7 +6,7 @@
     <div class="right-menu">
       <el-dropdown class="avatar-container" trigger="click">
         <div class="avatar-wrapper">
-          <img src="https://ibb.co/vxLsXgs" class="user-avatar">
+          <img src="https://github.com/tonyke0918/fabric-trace/blob/main/web.png" class="user-avatar">
           <i class="el-icon-caret-bottom" />
         </div>
         <el-dropdown-menu slot="dropdown" class="user-dropdown">
