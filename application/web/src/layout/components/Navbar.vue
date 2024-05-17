@@ -6,18 +6,18 @@
     <div class="right-menu">
       <el-dropdown class="avatar-container" trigger="click">
         <div class="avatar-wrapper">
-          <img src="https://foruda.gitee.com/avatar/1708144926151716189/4941425_real__cool_1708144926.png!avatar200" class="user-avatar">
+          <img src="https://ibb.co/vxLsXgs" class="user-avatar">
           <i class="el-icon-caret-bottom" />
         </div>
         <el-dropdown-menu slot="dropdown" class="user-dropdown">
           <a target="_blank" href="https://gitee.com/real__cool/fabric-trace">
-            <el-dropdown-item>项目地址</el-dropdown-item>
+            <el-dropdown-item>專案位置</el-dropdown-item>
           </a>
-          <a target="_blank" href="https://blog.csdn.net/qq_41575489">
-            <el-dropdown-item>TrueTechLabs 博客</el-dropdown-item>
+          <a target="_blank" href="https://store-images.s-microsoft.com/image/apps.37935.9007199266245907.b029bd80-381a-4869-854f-bac6f359c5c9.91f8693c-c75b-4050-a796-63e1314d18c9?h=464">
+            <el-dropdown-item>Face Book</el-dropdown-item>
           </a>
-          <a target="_blank" href="https://space.bilibili.com/25095014">
-            <el-dropdown-item>TrueTechLabs B站</el-dropdown-item>
+          <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/640px-Instagram_logo_2022.svg.png">
+            <el-dropdown-item>Instagram</el-dropdown-item>
           </a>
           <el-dropdown-item divided @click.native="logout">
             <span style="display:block;">登出</span>
