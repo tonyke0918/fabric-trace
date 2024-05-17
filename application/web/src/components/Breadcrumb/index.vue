@@ -33,7 +33,7 @@ export default {
       const first = matched[0]
 
       if (!this.isUplink(first)) {
-        matched = [{ path: '/uplink1', meta: { title: '溯源信息录入' }}].concat(matched)
+        matched = [{ path: '/uplink1', meta: { title: '溯源訊息錄入' }}].concat(matched)
       }
 
       this.levelList = matched.filter(item => item.meta && item.meta.title && item.meta.breadcrumb !== false)
