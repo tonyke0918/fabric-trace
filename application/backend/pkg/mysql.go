@@ -72,7 +72,7 @@ func Login(user *model.MysqlUser) (err error) {
 		return err
 	}
 	if EncryptByMD5(user.Password) != password {
-		return errors.New("密码错误")
+		return errors.New("密碼錯誤")
 	}
 	return nil
 }
