@@ -10,7 +10,7 @@
           <i class="el-icon-caret-bottom" />
         </div>
         <el-dropdown-menu slot="dropdown" class="user-dropdown">
-          <a target="_blank" href="https://gitee.com/real__cool/fabric-trace">
+          <a target="_blank" href="https://">
             <el-dropdown-item>專案位置</el-dropdown-item>
           </a>
           <a target="_blank" href="https://store-images.s-microsoft.com/image/apps.37935.9007199266245907.b029bd80-381a-4869-854f-bac6f359c5c9.91f8693c-c75b-4050-a796-63e1314d18c9?h=464">
