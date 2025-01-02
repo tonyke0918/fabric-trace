@@ -11,13 +11,13 @@
         </el-form-item>
 
         <div v-show="userType=='養殖戶'">
-          <el-form-item label="產品名稱:" style="width: 300px" label-width="120px">
+          <el-form-item label="牛隻編號:" style="width: 300px" label-width="120px">
             <el-input v-model="tracedata.Farmer_input.Fa_fruitName" />
           </el-form-item>
           <el-form-item label="產地:" style="width: 300px" label-width="120px">
             <el-input v-model="tracedata.Farmer_input.Fa_origin" />
           </el-form-item>
-          <el-form-item label="養殖時間:" style="width: 300px" label-width="120px">
+          <el-form-item label="出生時間:" style="width: 300px" label-width="120px">
             <el-input v-model="tracedata.Farmer_input.Fa_plantTime" />
           </el-form-item>
           <el-form-item label="屠宰時間:" style="width: 300px" label-width="120px">
