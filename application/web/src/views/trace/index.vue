@@ -2,7 +2,7 @@
   <div class="trace-container">
     <el-input v-model="input" placeholder="請輸入溯源碼查詢" style="width: 300px;margin-right: 15px;" />
     <el-button type="primary" plain @click="FruitInfo"> 查詢 </el-button>
-    <el-button type="success" plain @click="AllFruitInfo"> 取得所有產品資訊 </el-button>
+    <el-button type="success" plain @click="AllFruitInfo"> 取得所有資訊 </el-button>
     <el-table
       :data="tracedata"
       style="width: 100%"
@@ -11,13 +11,13 @@
         <template slot-scope="props">
           <el-form label-position="left" inline class="demo-table-expand">
             <div><span class="trace-text" style="color: #67C23A;">產品資訊</span></div>
-            <el-form-item label="產品名稱：">
+            <el-form-item label="牛隻編號：">
               <span>{{ props.row.farmer_input.fa_fruitName }}</span>
             </el-form-item>
             <el-form-item label="產地：">
               <span>{{ props.row.farmer_input.fa_origin }}</span>
             </el-form-item>
-            <el-form-item label="養殖時間：">
+            <el-form-item label="出生日期：">
               <span>{{ props.row.farmer_input.fa_plantTime }}</span>
             </el-form-item>
             <el-form-item label="屠宰時間：">
